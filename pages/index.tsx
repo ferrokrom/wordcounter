@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import { FiSun, FiMoon } from "react-icons/Fi";
 import { TbNumbers } from "react-icons/Tb";
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 
@@ -119,7 +118,7 @@ export default function Home() {
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
             className="cursor-pointer p-3 bg-yellow-500 rounded-lg"
           >
-            {theme === "dark" ? <FiSun /> : <FiMoon />}
+            {theme === "dark" ? "Light" : "Dark"}
           </div>
         </div>
       </div>
