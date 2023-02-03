@@ -116,7 +116,7 @@ export default function Home() {
           </div>
           <div
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-            className="cursor-pointer p-3 bg-yellow-500 rounded-lg"
+            className="cursor-pointer px-2 py-1 bg-yellow-500 rounded-lg"
           >
             {theme === "dark" ? "Light" : "Dark"}
           </div>
