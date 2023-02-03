@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import { TbNumbers } from "react-icons/Tb";
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 
 interface TextDetail {
@@ -111,7 +110,6 @@ export default function Home() {
           style={{ maxWidth: "1100px" }}
         >
           <div className=" flex gap-2 items-center text-lg  p-2 border border-gray-200 dark:text-teal-300 text-black rounded-lg dark:border-gray-700 ">
-            <TbNumbers className="text-yellow-400" />
             Simple Word Counter
           </div>
           <div
